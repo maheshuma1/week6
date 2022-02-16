@@ -1,5 +1,5 @@
 package com.HandBags.Proxy;
 
 public interface HBInterface {
-	public String getType(String Desc);
+	public String ExecuteFilter(String Desc) throws Exception;
 }

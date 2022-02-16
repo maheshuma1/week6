@@ -3,8 +3,7 @@ package com.HandBags.Proxy;
 public class HandBags implements HBInterface{
 
 	@Override
-	public String getType(String Desc) {
-		
+	public String ExecuteFilter(String Desc) throws Exception {
 		switch (Desc) {
 		case "Quality":
 			return "Long Lasting";
@@ -16,6 +15,4 @@ public class HandBags implements HBInterface{
 			return "Not Details as expected";
 		}
 	}
-	
-
 }
