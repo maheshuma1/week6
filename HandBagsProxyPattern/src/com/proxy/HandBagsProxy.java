@@ -6,7 +6,7 @@ import java.util.List;
   
 public class HandBagsProxy implements HBInterface
 {
-    private HBInterface allow = new RealInternet();
+    private HBInterface allow = new HandBagsReal();
     private static List<String> banned;
       
     static

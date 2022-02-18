@@ -1,6 +1,6 @@
 package com.proxy;
 
-public class RealInternet implements HBInterface
+public class HandBagsReal implements HBInterface
 {
     @Override
     public void permission(String type)
