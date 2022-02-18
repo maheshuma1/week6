@@ -22,7 +22,7 @@ public class HandBagsProxy implements HBInterface
     {
         if(banned.contains(type))
         {
-            throw new Exception(type+" - Access to this is Denied");
+            throw new Exception(type+" - Permission is not there for this type");
         }
           
         allow.permission(type);
